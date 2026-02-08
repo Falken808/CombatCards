@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combat Cards | Press Kit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+    <header class="hero" id="top">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container">
+            <nav class="topbar">
+                <div class="brand">
+                    <span class="brand-mark" aria-hidden="true">CC</span>
+                    <span class="brand-text">Combat Cards</span>
+                </div>
+                <div class="top-actions">
+                    <a class="btn btn-ghost" href="#gallery">Cartas</a>
+                    <a class="btn btn-ghost" href="#reviews">Reseñas</a>
+                    <a class="btn btn-solid" href="#download">Descargar</a>
+                </div>
+            </nav>
+
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Press kit • Versión 1.0.0 Stable</p>
+                    <h1>Combates tácticos con cartas que cuestan vida.</h1>
+                    <p class="lead">
+                        <strong>Combat Cards</strong> es un juego por turnos con arquitectura cliente-servidor.
+                        Gestiona vida, defensa y economía en duelos estratégicos contra IA o jugadores reales.
+                    </p>
+                    <div class="hero-cta">
+                        <a class="btn btn-solid" href="#download">Descargar ahora</a>
+                        <a class="btn btn-outline" href="#about">Ver detalles</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-label">HP Inicial</span>
+                            <span class="stat-value">100</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Defensa Máx.</span>
+                            <span class="stat-value">200</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Oro por Victoria</span>
+                            <span class="stat-value">25</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Regeneración</span>
+                            <span class="stat-value">4 HP / 10s</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="hero-card-screen">
+                        <div class="hero-card-tag">Cliente Windows</div>
+                        <div class="hero-card-title">Combat Cards.exe</div>
+                        <ul class="hero-card-list">
+                            <li>Python 3.x</li>
+                            <li>Pygame</li>
+                            <li>Sockets + Pickle</li>
+                            <li>PyInstaller</li>
+                        </ul>
+                        <div class="hero-card-meta">Latencia baja · Multiplayer real-time</div>
+                    </div>
+                    <div class="hero-card-footer">
+                        <span class="chip">Windows 10/11</span>
+                        <span class="chip">1 GB RAM</span>
+                        <span class="chip">GPU integrada</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="panel container reveal" id="about">
+            <div class="panel-grid">
+                <div>
+                    <h2>Sobre el juego</h2>
+                    <p>
+                        Diseñado para partidas rápidas con decisiones de alto impacto. Cada carta puede cambiar el ritmo
+                        del combate, pero el sistema de sacrificio te obliga a balancear daño y supervivencia.
+                    </p>
+                    <div class="tags">
+                        <span class="tag tag-gold">Sacrificio</span>
+                        <span class="tag tag-blue">Defensa Activa</span>
+                        <span class="tag tag-red">Riesgo-Recompensa</span>
+                        <span class="tag">Multiplayer</span>
+                    </div>
+                </div>
+                <div class="panel-card">
+                    <h3>Requisitos del sistema</h3>
+                    <ul class="list">
+                        <li>OS: Windows 10/11 64-bit</li>
+                        <li>CPU: Dual Core 2.0 GHz</li>
+                        <li>RAM: 1 GB mínimo</li>
+                        <li>GPU: Integrada compatible</li>
+                        <li>Disco: 200 MB libres</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel container reveal" id="features">
+            <h2>Mecánicas base</h2>
+            <div class="feature-grid">
+                <article class="feature">
+                    <h3>Sistema de sacrificio</h3>
+                    <p>Cartas poderosas cuestan HP. Planifica cuándo pagar ese precio.</p>
+                </article>
+                <article class="feature">
+                    <h3>Defensa activa</h3>
+                    <p>Acumula escudo para mitigar daño y crear ventanas de contraataque.</p>
+                </article>
+                <article class="feature">
+                    <h3>Economía dinámica</h3>
+                    <p>Gana oro en cada partida y mejora tu mazo con ritmo propio.</p>
+                </article>
+                <article class="feature">
+                    <h3>Multiplayer real-time</h3>
+                    <p>Arquitectura con sockets para partidas ágiles y estables.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="panel container reveal" id="modes">
+            <div class="panel-grid">
+                <div>
+                    <h2>Modos de juego</h2>
+                    <ul class="list">
+                        <li>Duelo rápido 1v1</li>
+                        <li>Ranked competitivo</li>
+                        <li>IA táctica escalable</li>
+                        <li>Entrenamiento y deck test</li>
+                    </ul>
+                </div>
+                <div class="panel-card">
+                    <h3>Notas de balance</h3>
+                    <p>
+                        El sistema prioriza partidas cortas y decisivas. Ajustes de cartas y economía se revisan con datos de
+                        uso y feedback de la comunidad.
+                    </p>
+                    <div class="divider"></div>
+                    <p class="muted">Última revisión: 08/02/2026</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel container reveal" id="gallery">
+            <div class="section-head">
+                <div>
+                    <h2>Bestiario de cartas</h2>
+                    <p>Galería cargada desde assets del juego. Haz clic para ampliar.</p>
+                </div>
+                <div class="gallery-actions">
+                    <button class="btn btn-outline" type="button" id="shuffle-cards">Mezclar</button>
+                    <button class="btn btn-ghost" type="button" id="toggle-borders">Bordes pixel</button>
+                </div>
+            </div>
+            <div id="gallery-grid" class="card-grid"></div>
+        </section>
+
+        <section class="panel container reveal" id="download">
+            <div class="download-panel">
+                <div>
+                    <h2>Descarga</h2>
+                    <p>Versión estable para Windows. Incluye cliente y assets principales.</p>
+                    <div class="download-meta">
+                        <span class="chip">Build 1.0.0</span>
+                        <span class="chip">Tamaño ~120 MB</span>
+                        <span class="chip">Instalación rápida</span>
+                    </div>
+                </div>
+                <div class="download-actions">
+                    <a href="combat_cards.exe" class="btn btn-solid btn-large">Descargar Combat Cards.exe</a>
+                    <button class="btn btn-outline" type="button" id="copy-link">Copiar enlace</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel container reveal" id="reviews">
+            <div class="section-head">
+                <div>
+                    <h2>Reseñas y sugerencias</h2>
+                    <p>Comparte tu opinión, vota con estrellas y exporta feedback.</p>
+                </div>
+                <div class="chip">LocalStorage activo</div>
+            </div>
+
+            <form id="review-form" class="review-form">
+                <label class="field">
+                    <span>Nombre</span>
+                    <input id="review-name" type="text" placeholder="Tu nombre (opcional)" />
+                </label>
+                <label class="field">
+                    <span>Puntuación</span>
+                    <div class="stars" id="star-picker" aria-label="Selector de estrellas">
+                        <button type="button" data-star="1">☆</button>
+                        <button type="button" data-star="2">☆</button>
+                        <button type="button" data-star="3">☆</button>
+                        <button type="button" data-star="4">☆</button>
+                        <button type="button" data-star="5">☆</button>
+                    </div>
+                    <input id="review-rating" type="hidden" value="5" />
+                </label>
+                <label class="field">
+                    <span>Comentario</span>
+                    <textarea id="review-text" rows="4" placeholder="Qué te gustó, qué mejorarías..."></textarea>
+                </label>
+                <label class="field">
+                    <span>Tipo</span>
+                    <select id="review-type">
+                        <option value="comentario">Comentario</option>
+                        <option value="bug">Reporte de bug</option>
+                        <option value="sugerencia">Sugerencia de mejora</option>
+                    </select>
+                </label>
+                <div class="review-actions">
+                    <button id="review-submit" type="button" class="btn btn-solid">Enviar reseña</button>
+                    <button id="export-reviews" type="button" class="btn btn-outline">Exportar (JSON)</button>
+                    <label class="btn btn-ghost">
+                        Importar
+                        <input id="import-input" type="file" accept="application/json" />
+                    </label>
+                </div>
+            </form>
+
+            <div class="reviews-area">
+                <div class="review-summary">
+                    <h3>Reseñas públicas</h3>
+                    <div class="muted">Ordenadas por más recientes</div>
+                </div>
+                <div id="reviews-list" class="review-list"></div>
+            </div>
+        </section>
+
+        <section class="panel container reveal" id="roadmap">
+            <h2>Roadmap</h2>
+            <div class="roadmap">
+                <div class="roadmap-item">
+                    <span class="roadmap-date">Q1 2026</span>
+                    <div>
+                        <strong>Balance PVP</strong>
+                        <p>Iteración rápida en economía y costos de sacrificio.</p>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <span class="roadmap-date">Q2 2026</span>
+                    <div>
+                        <strong>Nuevas cartas</strong>
+                        <p>12 cartas y un set temático de bestias.</p>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <span class="roadmap-date">Q3 2026</span>
+                    <div>
+                        <strong>Modo torneo</strong>
+                        <p>Bracket local y eventos recurrentes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="brand">
+                    <span class="brand-mark" aria-hidden="true">CC</span>
+                    <span class="brand-text">Combat Cards</span>
+                </div>
+                <p>Desarrollado con Python &amp; Pygame. Estilo inspirado en estética retro táctica.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#top">Inicio</a>
+                <a href="#features">Mecánicas</a>
+                <a href="#gallery">Cartas</a>
+                <a href="#reviews">Reseñas</a>
+            </div>
+            <div class="footer-meta">
+                <div>&copy; 2024 Combat Cards</div>
+                <div>Contacto: press@combatcards.dev</div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <div class="lightbox-card">
+            <img id="lightbox-img" alt="Carta ampliada" />
+            <button id="lb-close" class="btn btn-solid" type="button">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="src/js/app.js"></script>
+</body>
+</html>
